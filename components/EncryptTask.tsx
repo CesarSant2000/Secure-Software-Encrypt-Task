@@ -315,7 +315,7 @@ export default function EncryptTask() {
                                     <>
                                         <TextField id="plain_text_mult4" label="Texto plano"
                                                    variant="outlined" {...register("plain_text_mult4", {required: true})}/>
-                                        {errors.plain_text_mult4 && <span>El campo texto plano es obligatorio</span>}
+                                        {errors.plain_text_mult4 && <span>El campo texto plano es obligatorio.</span>}
                                     </>
                                 }
                             </>
